@@ -1,0 +1,10 @@
+<div class="App">
+  <div class="todo-list">
+    <app-header></app-header>
+    <app-task></app-task>
+    <div *ngFor="let todolist of todolistService.showTodos()">
+      <app-todo-task [todolist]="todolist"></app-todo-task>
+
+    </div>
+  </div>
+</div>
