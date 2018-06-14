@@ -34,8 +34,6 @@ export class TodolistService {
 
   public onEdit(text: string): void {
     this.textUpdate = text;
-     
-
   } 
 
   public removeTodos(id: number): void {
